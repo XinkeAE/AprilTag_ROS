@@ -1,0 +1,9 @@
+package lcm_t_headers;
+
+struct test_lcm_t
+{
+	int32_t testInteger;
+	double testDouble;
+	string channelName;
+	boolean testBoolean;
+}

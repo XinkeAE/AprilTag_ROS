@@ -1,0 +1,11 @@
+package lcm_t_headers;
+
+struct mocap_t
+{	
+	float pos_x;
+	float pos_y;
+	float pos_z;
+	float roll;
+	float pitch;
+	float yaw;
+}

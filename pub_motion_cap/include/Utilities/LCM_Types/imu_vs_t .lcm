@@ -1,0 +1,18 @@
+package lcm_t_headers;
+
+struct imu_t
+{
+	int64_t timestamp;
+	
+	float Phi;
+	float Theta;
+	float Psi;
+	
+	float dPhi;
+	float dTheta;
+	float dPsi;
+	
+	float Ax;
+	float Ay;
+	float Az;
+}

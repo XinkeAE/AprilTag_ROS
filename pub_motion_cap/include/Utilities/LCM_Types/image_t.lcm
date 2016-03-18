@@ -1,0 +1,10 @@
+package lcm_t_headers;
+
+struct image_t
+{
+	int32_t width;
+	int32_t height;
+	int32_t pixelformat;
+	int32_t size;
+	byte data[size];
+}

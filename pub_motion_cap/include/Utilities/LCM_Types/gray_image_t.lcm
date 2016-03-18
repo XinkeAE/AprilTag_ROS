@@ -1,0 +1,10 @@
+package lcm_t_headers;
+
+struct gray_image_t
+{
+	int64_t timestamp;
+	
+	int32_t gray_size;
+	byte gray_data[gray_size];
+	
+}

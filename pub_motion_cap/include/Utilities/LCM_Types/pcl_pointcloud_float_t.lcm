@@ -1,0 +1,12 @@
+package lcm_t_headers;
+
+struct pcl_pointcloud_float_t
+{
+	int64_t timestamp;
+	
+	int32_t floatXYZ_size;
+	float floatXYZ[floatXYZ_size];
+	
+	int32_t floatXYZRGB_size;
+	float floatXYZRGB[floatXYZRGB_size];
+}

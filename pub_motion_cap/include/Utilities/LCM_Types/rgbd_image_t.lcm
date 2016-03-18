@@ -1,0 +1,10 @@
+package lcm_t_headers;
+
+struct rgbd_image_t
+{
+	int64_t timestamp;
+	int32_t rgb_size;
+	byte rgb_data[rgb_size];
+	int32_t d_size;
+	byte d_data[d_size];
+}

@@ -1,0 +1,9 @@
+package lcm_t_headers;
+
+struct quad_vscontrol_t
+{	
+	float Roll;
+	float Pitch;
+	float Yaw_Meas;
+	float Thrust;
+}

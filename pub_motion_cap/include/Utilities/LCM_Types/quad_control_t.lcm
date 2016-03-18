@@ -1,0 +1,11 @@
+package lcm_t_headers;
+
+struct quad_control_t
+{
+	int64_t timestamp;
+	
+	float Roll_Rate;
+	float Pitch_Rate;
+	float Yaw_Rate;
+	float Thrust;
+}
